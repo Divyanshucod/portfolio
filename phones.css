@@ -1,0 +1,33 @@
+.main{
+    margin-left: 0;
+}
+/* ---------navbar--------- */
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+    overflow: hidden;
+    z-index: 2;
+}
+.navbar ul{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbar ul li{
+    margin-right: 10px;
+}
+.navbar ul li a{
+    padding: 6px;
+    color:white;
+}
+/* ---------home------ */
+.home{
+    opacity: 1;
+}
+.home .home-content{
+    top:20%;
+    right: 8%;
+}
